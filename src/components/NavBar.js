@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react'
 import { RiComputerLine } from 'react-icons/ri'
 import navIcon1 from '../assets/img/github.png'
 import navIcon2 from '../assets/img/linkedin_icon_circle.svg.png'
+import '../styles/NavBar.css'
 
 
 
