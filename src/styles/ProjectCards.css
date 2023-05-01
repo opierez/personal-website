@@ -9,7 +9,6 @@
   .proj-imgbx {
     height: 300px;
   }
-
   
   .proj-imgbx::before {
     content: "";
