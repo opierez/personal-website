@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { ArrowRightCircle } from 'react-bootstrap-icons'
 import '../styles/Banner.css'
-import headerImg from '../assets/img/open-neon.png'
+// import headerImg from '../assets/img/open-neon.png'
 
 function Banner() {
 
@@ -49,17 +49,14 @@ function Banner() {
     }
 
     return(
-        <section className="banner" id="home">
+        <section className="banner d-flex justify-content-center align-items-center" id="home">
             <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
+                <Row className="justify-content-center">
+                    <Col xs={12} md={6} xl={7} className="text-center">
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Olivia, `}<span className="wrap">{text}</span></h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
-                    </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Img" />
+                        {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button> */}
                     </Col>
                 </Row>
             </Container>

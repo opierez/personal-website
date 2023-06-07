@@ -40,8 +40,7 @@ function NavBar() {
     return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-            <RiComputerLine size={50}/>
+        <RiComputerLine size={50}/>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className='navbar-toggler-icon'></span>
         </Navbar.Toggle>
