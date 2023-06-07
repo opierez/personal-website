@@ -13,22 +13,26 @@ function Projects() {
         {
             title: "StreamEaze",
             description: "Full-Stack Development",
-            imgUrl: projImg1
+            imgUrl: projImg1,
+            githubUrl: "https://github.com/opierez/streameaze-project-management"
         },
         {
             title: "Track It",
             description: "Full-Stack Development",
-            imgUrl: projImg2
+            imgUrl: projImg2, 
+            githubUrl: "https://github.com/opierez/track-it-budget-tracker"
         }, 
         {
             title: "Absorb Art Shop",
             description: "Frontend Development",
-            imgUrl: projImg3
+            imgUrl: projImg3, 
+            githubUrl: "https://github.com/opierez/absorb-art-shop"
         },
         {
             title: "Arecibo Observatory 2.0",
             description: "Frontend Development",
-            imgUrl: projImg4
+            imgUrl: projImg4, 
+            githubUrl: "https://github.com/opierez/arecibo-observatory-space-exploration"
         }
     ]
 
@@ -39,7 +43,7 @@ function Projects() {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a.</p>
+                        <p>Below you'll find a collection of my carefully crafted frontend and fullstack projects that showcase my skills and expertise. From developing a dynamic project management tool to designing a budget tracking application, an immersive mock e-commerce art shop, and a stellar space observation platform, I have poured my passion into creating diverse and innovative experiences.</p>
                         <Row className="project-cards-row">
                             {
                                 projects.map((project, index) => {
