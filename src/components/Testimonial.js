@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
+import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 import '../styles/Testimonial.css'
 
 
@@ -9,13 +10,10 @@ function Testimonial({ text, name, jobTitle }) {
         <Container>
             <Row>
                 <Col>
-                    <blockquote class="blockquote">
-                        <p class="mb=9">{text}</p>
-                        <footer class="blockquote-footer">{name} {jobTitle}</footer>
+                    <blockquote className="blockquote">
+                    <p className="mb-0"><FaQuoteLeft size={20}/> {text} <FaQuoteRight size={20}/></p>
+                        <footer className="blockquote-footer">{name} {jobTitle}</footer>
                     </blockquote>
-                    {/* <h4>{name}</h4>
-                    <p className="mb-0">{jobTitle}</p>
-                    <p>{text}</p> */}
                 </Col>
             </Row>
         </Container>

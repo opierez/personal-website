@@ -17,6 +17,12 @@ function Testimonials() {
             text: "As a Content Strategy Lead, Olivia made data-driven decisions to significantly deflect Support inquiries and minimize the workload of an entire team. Did I mention she was simultaneously writing content for not one but three product launches? Yeah. She did that.",
             name: "Natalie Langdale",
             jobTitle: "Chatbot Strategy Lead at Betterment"
+        },
+        {
+            id: 3, 
+            text: "Being part of a new team, at a startup nonetheless, can be scary but Olivia didn’t shy away from the challenges ahead. She helped me build the team with her willingness to solve tough problems, be a mentor for more junior colleagues and architect processes and procedures that outlasted her tenure on the team.",
+            name: "Brandon Andujar",
+            jobTitle: "Product Manager at Betterment"
         }
     ]
 

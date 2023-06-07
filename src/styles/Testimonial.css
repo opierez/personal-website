@@ -1,17 +1,35 @@
 .blockquote {
-    border-left: 5px solid #ccc;
+    /* border-left: 5px solid #ccc; */
     margin: 0;
-    padding: 10px 20px;
-    font-size: 20px;
-  }
-  
-  blockquote p {
-    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700;
     font-style: italic;
+    position: relative;
+    color: black;
   }
+
   
-  blockquote footer {
-    margin-top: 10px;
-    font-weight: bold;
+  /* .blockquote:before {
+    content: "\201C";
+    font-size: 80px;
+    font-family: Georgia, serif;
+    color: white;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+  } */
+  
+  /* .blockquote:after {
+    content: "";
+  } */
+  
+footer.blockquote-footer {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    position: relative;
+    color: black;
   }
   

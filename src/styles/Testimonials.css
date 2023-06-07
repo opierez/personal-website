@@ -1,4 +1,8 @@
+h1 {
+    color: black;
+}
+
 .testimonials {
-    background-color: black;
+    background: #AAF0D2;
     padding-bottom: 50px;
 }

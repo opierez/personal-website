@@ -12,7 +12,7 @@
   
   .proj-imgbx::before {
     content: "";
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #060060 -5.91%, #1739D1 111.58%);
     opacity: 0.85;
     position: absolute;
     width: 100%;
@@ -44,7 +44,7 @@
   }
   .proj-txtx span {
     font-style: italic;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 15px;
     letter-spacing: 0.8px;
   }
