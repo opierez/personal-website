@@ -43,7 +43,7 @@ function Skills() {
                             </h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             {/* infinite = true makes the carousel loop infinitely */}
-                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                            <Carousel responsive={responsive} infinite={true} className="skill-slider custom-carousel">
                                 {skills.map((skill, index) => (
                                     <div key={index} className="item">
                                         <h5>{skill}</h5>
