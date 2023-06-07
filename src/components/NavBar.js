@@ -9,8 +9,6 @@ import navIcon2 from '../assets/img/linkedin_icon_circle.svg.png'
 import '../styles/NavBar.css'
 
 
-
-
 function NavBar() {
 
     const [activeLink, setActiveLink] = useState('home') // manages which link the user is on 
@@ -52,10 +50,10 @@ function NavBar() {
             <Nav.Link href="#testimonials" className={activeLink === 'testimonials' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('testimonials')}>Testimonials</Nav.Link>
             </Nav>
             <span className='navbar-text'>
-            <div className='social-icon'>
+            {/* <div className='social-icon'>
                 <a href="#"><img src={navIcon1} alt="" /></a>
                 <a href="#"><img src={navIcon2} alt="" /></a>
-            </div>
+            </div> */}
             <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
             </span>
         </Navbar.Collapse>
