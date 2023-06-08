@@ -41,7 +41,8 @@ function Skills() {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p>As a Content Strategist turned Software Engineer, I bring a unique blend of skills and experience to the table. With a talent for problem-solving, data analysis, and creating impactful solutions, I analyze existing processes to implement enhancements that evolve with company growth and the dynamic tech industry.</p>
+                            <p>I have extensive experience creating full-stack applications from scratch, using technologies such as JavaScript, React, Ruby on Rails, SQLite, Postgres, and CSS to name a few. In my previous roles, I've demonstrated my ability to deliver exceptional customer experiences, create and implement effective content strategies, and work on projects ranging from chatbot development to product launches.</p>
                             {/* infinite = true makes the carousel loop infinitely */}
                             <Carousel responsive={responsive} infinite={true} className="skill-slider custom-carousel">
                                 {skills.map((skill, index) => (

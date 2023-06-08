@@ -55,8 +55,7 @@ function Banner() {
                     <Col xs={12} md={6} xl={7} className="text-center">
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Olivia, `}<span className="wrap">{text}</span></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        {/* <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button> */}
+                        <p>My passion for technology originates from the desire to create products that help people and make a positive impact on their lives, which is why I transitioned from Content Strategy to Software Engineering. I believe in the power of technology to provide practical solutions that simplify and enhance the lives of individuals.</p>
                     </Col>
                 </Row>
             </Container>
