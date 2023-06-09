@@ -14,6 +14,7 @@ function Socials() {
 
     return (
         <div className="social-media" id="socials">
+            <h5 className="social-text">Have a question or just want to chat? Please reach out!</h5>
             <ul className="social-icon" style={{ listStyleType: 'none' }}>
                 <li><a href="https://www.linkedin.com/in/olivia-perez-se/" target="_blank"><img src={navIcon1} alt="LinkedIn"/></a></li>
                 <li><a href="https://github.com/opierez" target="_blank"><img src={navIcon2} alt="Github"/></a></li>

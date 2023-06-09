@@ -57,6 +57,9 @@ function Banner() {
                         <h1>{`Hi I'm Olivia, `}<span className="wrap">{text}</span></h1>
                         <p>My passion for technology originates from the desire to create products that help people and make a positive impact on their lives, which is why I transitioned from Content Strategy to Software Engineering. I believe in the power of technology to provide practical solutions that simplify and enhance the lives of individuals.</p>
                     </Col>
+                    <Col xs={12} md={6} xl={5}>
+                        <div></div>
+                    </Col>
                 </Row>
             </Container>
         </section>
