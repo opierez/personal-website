@@ -4,7 +4,7 @@ import { GiDiamonds } from 'react-icons/gi'
 
 function Bio () {
     return (
-        <>
+        <section>
             <h2 className="bio-heading">
                 About Me
             </h2>
@@ -22,7 +22,7 @@ function Bio () {
                     <li><GiDiamonds className="list-icon" />Constantly learning, with an insatiable curiosity for discovering new topics and exploring new ideas</li>
                 </ul>
             </div>
-        </>
+        </section>
     )
 }
 
