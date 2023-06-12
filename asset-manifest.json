@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.dd908a48.css",
+    "main.js": "/personal-website/static/js/main.c80319e2.js",
+    "static/js/787.fb771931.chunk.js": "/personal-website/static/js/787.fb771931.chunk.js",
+    "static/media/Poppins-Thin.ttf": "/personal-website/static/media/Poppins-Thin.c0e3721e5939730f7cf2.ttf",
+    "static/media/Poppins-Medium.ttf": "/personal-website/static/media/Poppins-Medium.c5eb70982e90502d0d01.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/personal-website/static/media/Poppins-SemiBold.090bd619384bb8d4c289.ttf",
+    "static/media/absorb-art.png": "/personal-website/static/media/absorb-art.a532f862d5f7766608ff.png",
+    "static/media/streameaze.png": "/personal-website/static/media/streameaze.c63db7fc8d2511545d00.png",
+    "static/media/arecibo2.png": "/personal-website/static/media/arecibo2.56ffd245700b7c7a76b0.png",
+    "static/media/track-it.png": "/personal-website/static/media/track-it.3275bd904e27a8bd0384.png",
+    "static/media/linkedin_icon_circle.svg.png": "/personal-website/static/media/linkedin_icon_circle.svg.65c1770dad23dadd7e5b.png",
+    "static/media/revicons.eot": "/personal-website/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/personal-website/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/personal-website/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/personal-website/index.html",
+    "main.dd908a48.css.map": "/personal-website/static/css/main.dd908a48.css.map",
+    "main.c80319e2.js.map": "/personal-website/static/js/main.c80319e2.js.map",
+    "787.fb771931.chunk.js.map": "/personal-website/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd908a48.css",
+    "static/js/main.c80319e2.js"
+  ]
+}
