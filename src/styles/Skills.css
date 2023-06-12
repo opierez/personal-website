@@ -1,68 +1,33 @@
-.skill {
-  padding: 0 0 50px 0;
-  position: relative;
-  background: #42C092;
-}
-.skill-bx {
-  background: #151515;
-  border-radius: 64px;
-  text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
-}
-.skill h2 {
-	font-size: 45px;
-	font-weight: 700;
-}
-.skill p {
-    color: white;
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 50px 0;
-}
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
-}
-.background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
+.option-container {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 20px;
+    margin-bottom: 40px;
 }
 
 .circle-selection {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 2px solid #000;
-  margin-right: 5px;
-  border-color: white;
-  vertical-align: middle;
-  cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-right: 5px;
+    border-color: white;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 .filled-circle {
-  background-color: white;
-}
-
-.option-container {
-  display: inline-flex;
-  align-items: center;
-  padding-right: 20px;
-  margin-bottom: 40px;
+    background-color: white;
 }
 
 .selection-text {
-  font-size: 16px;
-  font-weight: bold; 
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+.skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
 }

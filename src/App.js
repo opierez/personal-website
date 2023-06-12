@@ -1,7 +1,7 @@
 import './App.css';
 import Banner from './components/Banner';
 import NavBar from './components/NavBar';
-import Skills from './components/Skills';
+import About from './components/About';
 import Projects from './components/Projects';
 import Testimonials from './components/Testimonials';
 import Socials from './components/Socials'
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner /> 
-      <Skills />
+      <About />
       <Projects />
       <Testimonials />
       <Socials />

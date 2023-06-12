@@ -1,0 +1,33 @@
+.bio-heading {
+	font-size: 45px;
+	font-weight: 700;
+}
+.bio-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 50px 0;
+}
+
+.bio-text h4 {
+    margin-top: 40px;
+}
+
+
+.hobby-list {
+    list-style: none;
+    /* text-align: left; */
+}
+
+.hobby-list li {
+    font-weight: 800;
+}
+
+.list-icon {
+    margin-right: 10px;
+}
+
+
+
