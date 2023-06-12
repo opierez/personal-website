@@ -18,7 +18,7 @@ function Socials() {
             <Container>
                 <Row>
                     <Col>
-                        <h5 className="social-text">Have a question or just want to chat? Please reach out!</h5>
+                        <h5 className="social-text">Have a question or want to chat? Please reach out!</h5>
                     </Col>
                 </Row>
                 <Row>
