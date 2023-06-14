@@ -1,9 +1,8 @@
 import React from "react"
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { ArrowRightCircle } from 'react-bootstrap-icons'
 import '../styles/Banner.css'
-// import headerImg from '../assets/img/open-neon.png'
 
 function Banner() {
 
@@ -13,6 +12,26 @@ function Banner() {
     const [text, setText] = useState('') // represents the portion of the current word being displayed
     const [delta, setDelta] = useState(300 - Math.random() * 100) // determines how fast each letter of the word is typed out or deleted (value will be between 200 and 300)
     const period = 2000; // amount of time transition between each word
+    const [inViewport, setInViewport] = useState(true) // tracks when the component is in the viewport or not
+    const bannerRef = useRef(null) // reference to the banner section
+
+ 
+    useEffect(() => {
+        // calculates whether the banner section is within the viewport
+        const handleScroll = () => {
+            const rect = bannerRef.current.getBoundingClientRect()
+            const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight
+            setInViewport(isInViewport)
+        }
+      
+        // ensures the handleScroll function is called whenever scroll event occurs in the window
+        window.addEventListener('scroll', handleScroll)
+      
+        // cleanup function to remove handleScroll event listener when component is unmounted
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
 
     // runs whenever the value of "text" changes
     useEffect(() => {
@@ -49,13 +68,13 @@ function Banner() {
     }
 
     return(
-        <section className="banner d-flex justify-content-center align-items-center" id="home">
+        <section className="banner d-flex justify-content-center align-items-center" id="home" ref={bannerRef}>
             <Container>
                 <Row className="justify-content-center">
                     <Col xs={12} md={6} xl={7} className="text-center">
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm Olivia, `}<span className="wrap">{text}</span></h1>
-                        <p>My passion for technology originates from the desire to create products that help people and make a positive impact on their lives, which is why I transitioned from Content Strategy to Software Engineering. I believe in the power of technology to provide practical solutions that simplify and enhance the lives of individuals.</p>
+                        <span className="tagline">Hi my name is</span>
+                        <h1>{`Olivia Perez, and I'm a `}<span className="wrap">{inViewport ? text : ''}</span></h1> 
+                        <p>I build products aimed at enhancing the lives of individuals and providing them with delightful experiences</p>
                     </Col>
                 </Row>
             </Container>
