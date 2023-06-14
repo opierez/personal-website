@@ -14,7 +14,7 @@ function Banner() {
     const period = 2000; // amount of time transition between each word
     const [inViewport, setInViewport] = useState(true) // tracks when the component is in the viewport or not
     const bannerRef = useRef(null) // reference to the banner section
-
+    const tickerRef = useRef(null);
  
     useEffect(() => {
         // calculates whether the banner section is within the viewport
@@ -33,14 +33,13 @@ function Banner() {
         }
     }, [])
 
-    // runs whenever the value of "text" changes
     useEffect(() => {
-        let ticker = setInterval(() => { 
-            tick();
-        }, delta)
-
-        return () => { clearInterval(ticker)} //cleanup function to clear the timer when the component unmounts or when the "text" state changes
-    }, [text]) 
+        tickerRef.current = setInterval(tick, delta);
+    
+        return () => {
+          clearInterval(tickerRef.current);
+        };
+      }, [text]);
 
     // calculates the index of the current word to be displayed based on the current value of loopNum
     const tick = () => {
@@ -67,13 +66,20 @@ function Banner() {
         }
     }
 
+     useEffect(() => {
+        return () => {
+        // Clear the interval when the component unmounts
+        clearInterval(tickerRef.current)
+        }
+    }, [])
+
     return(
         <section className="banner d-flex justify-content-center align-items-center" id="home" ref={bannerRef}>
             <Container>
                 <Row className="justify-content-center">
                     <Col xs={12} md={6} xl={7} className="text-center">
                         <span className="tagline">Hi my name is</span>
-                        <h1>{`Olivia Perez, and I'm a `}<span className="wrap">{inViewport ? text : ''}</span></h1> 
+                        <h1>{`Olivia Perez, `}<span className="wrap">{inViewport ? text : ''}</span></h1> 
                         <p>I build products aimed at enhancing the lives of individuals and providing them with delightful experiences</p>
                     </Col>
                 </Row>
