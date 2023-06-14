@@ -59,6 +59,13 @@
   color: #AAF0D2;
 }
 
+.proj-txtx p {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}
+
 .proj-imgbx a {
   text-decoration: none;
   color: inherit;

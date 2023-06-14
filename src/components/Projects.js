@@ -14,25 +14,29 @@ function Projects() {
             title: "StreamEaze",
             description: "Full-Stack Development",
             imgUrl: projImg1,
-            githubUrl: "https://github.com/opierez/streameaze-project-management"
+            githubUrl: "https://github.com/opierez/streameaze-project-management",
+            tech: ["React", "Ruby", "Ruby on Rails", "ActiveRecord", "PostgreSQL", "Tailwind", "JavaScript", "React DnD"]
         },
         {
             title: "Track It",
             description: "Full-Stack Development",
             imgUrl: projImg2, 
-            githubUrl: "https://github.com/opierez/track-it-budget-tracker"
+            githubUrl: "https://github.com/opierez/track-it-budget-tracker", 
+            tech: ["React", "Ruby", "Ruby on Rails", "ActiveRecord", "Tailwind", "JavaScript", "React Google Charts"]
         }, 
         {
             title: "Absorb Art Shop",
             description: "Frontend Development",
             imgUrl: projImg3, 
-            githubUrl: "https://github.com/opierez/absorb-art-shop"
+            githubUrl: "https://github.com/opierez/absorb-art-shop",
+            tech: ["React", "JavaScript", "CSS"]
         },
         {
             title: "Arecibo Observatory 2.0",
             description: "Frontend Development",
             imgUrl: projImg4, 
-            githubUrl: "https://github.com/opierez/arecibo-observatory-space-exploration"
+            githubUrl: "https://github.com/opierez/arecibo-observatory-space-exploration",
+            tech: ["JavaScript", "CSS", "HTML", "NASA API"]
         }
     ]
 

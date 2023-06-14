@@ -6,7 +6,7 @@ import '../styles/Skills.css'
 function Skills() {
 
       // list of my skills 
-      const technicalSkills = ['Full Stack Development', 'Ruby', 'Ruby on Rails', 'JavaScript', 'JavaScript Frameworks', 'React', 'CSS', 'HTML', 'JSON', 'Data Analytics', 'Postgres', 'React Hooks', 'Active Record', 'SQLite', 'Github', 'Git', 'Object-Oriented Programming', 'REST APIs', 'API Integration', 'Debugging', 'Postman', 'Bootstrap', 'Tailwind', 'Python', 'Technical Writing', 'Chatbot Content Development', 'Chatbot Architecture', 'Mixpanel', 'Hubspot']
+      const technicalSkills = ['Full Stack Development', 'Ruby', 'Ruby on Rails', 'JavaScript', 'JavaScript Frameworks', 'React', 'CSS', 'HTML', 'JSON', 'Data Analytics', 'PostgreSQL', 'React Hooks', 'Active Record', 'SQLite', 'Github', 'Git', 'Object-Oriented Programming', 'REST APIs', 'API Integration', 'Debugging', 'Postman', 'Bootstrap', 'Tailwind', 'Python', 'Technical Writing', 'Chatbot Content Development', 'Chatbot Architecture', 'Mixpanel', 'Hubspot']
       const softSkills = ['Pair Programming', 'Problem Solving', 'Analytical Skills', 'Cross-Functional Collaborations', 'Project Planning', 'Content Strategy', 'Project Management', 'Customer Insight', 'Effective Communication', 'Time Management and Prioritization', 'Attention to Detail', 'Creativity and Innovation', 'Continuous Learning']
   
       

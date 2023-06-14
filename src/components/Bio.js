@@ -9,9 +9,10 @@ function Bio () {
                 About Me
             </h2>
             <div className="bio-text">
-                <p>My passion for technology originates from the desire to create products that help people and make a positive impact on their lives, which is why I transitioned from Content Strategy to Software Engineering. My background working in Customer Experience has taught me the value of understanding user needs and the importance of addressing them effectively.</p>
+                <p>My passion for technology originates from the desire to create products that positively impact people's lives. Fueled by this drive, I transitioned from Content Strategy to Software Engineering, aspiring to participate in the development process.</p>
+                <p>My background working in Customer Experience has taught me the value of understanding and supporting user needs and the importance of addressing them effectively. I take pride in leveraging this customer-centric mindset when building features.</p>
                 <p>With a talent for problem-solving, data analysis, and creating impactful solutions, I analyze existing processes to implement enhancements that evolve with company growth and the dynamic tech industry.</p>
-                <p>I have extensive experience creating full-stack applications from scratch, using technologies such as JavaScript, React, Ruby on Rails, SQLite, Postgres, and CSS to name a few. In my previous roles, I've demonstrated my ability to deliver exceptional customer experiences, create and implement effective content strategies, and work on projects ranging from chatbot development to product launches.</p>
+                <p>I have extensive experience creating full-stack applications from scratch, using technologies such as JavaScript, React, Ruby, Ruby on Rails, SQLite, PostgreSQL, and CSS to name a few. In my previous roles, I've demonstrated my ability to deliver exceptional customer experiences, create and implement effective content strategies, and work on projects ranging from chatbot development to product launches.</p>
                 
                 <h4>When I'm not coding, you can find me:</h4>
                 <ul className="hobby-list">

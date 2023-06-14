@@ -2,8 +2,9 @@ import React from "react";
 import { Col } from "react-bootstrap";
 import '../styles/ProjectCards.css'
 
-function ProjectCards({ title, description, imgUrl, githubUrl }) {
+function ProjectCards({ title, description, imgUrl, githubUrl, tech }) {
 
+    console.log(tech)
 
     return (
         <Col sm={6} md={4}>
@@ -13,6 +14,16 @@ function ProjectCards({ title, description, imgUrl, githubUrl }) {
                     <div className="proj-txtx">
                         <h4>{title}</h4>
                         <span>{description}</span>
+                        <br></br>
+                        <br></br>
+                        <span>
+                            {tech.map((technology, index) => (
+                                <React.Fragment key={index}>
+                                    {index !== 0 && <span> • </span>}
+                                    <span>{technology}</span>
+                                </React.Fragment>
+                            ))}
+                        </span>
                     </div>
                 </a>
             </div>
