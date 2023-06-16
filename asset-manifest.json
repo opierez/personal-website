@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.0787ed7f.css",
-    "main.js": "/static/js/main.ac703d04.js",
+    "main.css": "/static/css/main.9e02466b.css",
+    "main.js": "/static/js/main.32b09004.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/Poppins-Thin.ttf": "/static/media/Poppins-Thin.c0e3721e5939730f7cf2.ttf",
     "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.c5eb70982e90502d0d01.ttf",
     "static/media/Poppins-SemiBold.ttf": "/static/media/Poppins-SemiBold.090bd619384bb8d4c289.ttf",
     "static/media/absorb-art.png": "/static/media/absorb-art.a532f862d5f7766608ff.png",
     "static/media/streameaze.png": "/static/media/streameaze.c63db7fc8d2511545d00.png",
-    "static/media/arecibo2.png": "/static/media/arecibo2.56ffd245700b7c7a76b0.png",
+    "static/media/arecibo.png": "/static/media/arecibo.56ffd245700b7c7a76b0.png",
     "static/media/track-it.png": "/static/media/track-it.3275bd904e27a8bd0384.png",
     "static/media/linkedin_icon_circle.svg.png": "/static/media/linkedin_icon_circle.svg.65c1770dad23dadd7e5b.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.0787ed7f.css.map": "/static/css/main.0787ed7f.css.map",
-    "main.ac703d04.js.map": "/static/js/main.ac703d04.js.map",
+    "main.9e02466b.css.map": "/static/css/main.9e02466b.css.map",
+    "main.32b09004.js.map": "/static/js/main.32b09004.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0787ed7f.css",
-    "static/js/main.ac703d04.js"
+    "static/css/main.9e02466b.css",
+    "static/js/main.32b09004.js"
   ]
 }
