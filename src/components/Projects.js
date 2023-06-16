@@ -2,8 +2,8 @@ import React from "react"
 import projImg1 from '../assets/img/streameaze.png'
 import projImg2 from '../assets/img/track-it.png'
 import projImg3 from '../assets/img/absorb-art.png'
-import projImg4 from '../assets/img/arecibo2.png'
-import { Container, Row, Col, Tab, Nav } from 'react-bootstrap'
+import projImg4 from '../assets/img/arecibo.png'
+import { Container, Row, Col } from 'react-bootstrap'
 import ProjectCards from "./ProjectCards"
 import '../styles/Projects.css'
 
