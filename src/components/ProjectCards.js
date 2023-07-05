@@ -4,8 +4,6 @@ import '../styles/ProjectCards.css'
 
 function ProjectCards({ title, description, imgUrl, githubUrl, tech }) {
 
-    console.log(tech)
-
     return (
         <Col sm={6} md={4}>
             <div className="proj-imgbx">
