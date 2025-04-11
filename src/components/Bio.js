@@ -9,10 +9,9 @@ function Bio () {
         'Engrossed in a captivating Sci-Fi, Fantasy, or Fiction book, always on the lookout for a great read',
         'Outdoors and active, either riding my bike, playing tennis, or weightlifting at the gym',
         'Exploring new destinations around the world! Some of my favorite cities so far include Tokyo, Florence, Barcelona, and Mexico City',
-        'Constantly learning, with an insatiable curiosity for discovering new topics and exploring new ideas'
+        'Constantly learning, with an insatiable curiosity for discovering new topics and ideas'
     ]
 
-    // creates a list element for each hobby 
     const hobbyItems = hobbies.map((hobby) => <li key={hobby}><GiDiamonds className="list-icon" />{hobby}</li>)
 
     const bioInfos = [
@@ -22,7 +21,6 @@ function Bio () {
         `I have extensive experience creating full-stack applications from scratch, using technologies such as JavaScript, React, Ruby, Ruby on Rails, SQLite, PostgreSQL, and CSS to name a few. In my previous roles, I've demonstrated my ability to deliver exceptional customer experiences, create and implement effective content strategies, and work on projects ranging from chatbot development to product launches.`
     ]
 
-    // creates a p element for each bit of bio info
     const bioInfoElements = bioInfos.map((info) => <p key={info}>{info}</p>)
 
     return (

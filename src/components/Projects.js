@@ -46,8 +46,13 @@ function Projects() {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
-                        <p>Below you'll find a collection of my carefully crafted frontend and fullstack projects that showcase my skills and expertise. From developing a dynamic project management tool to designing a budget tracking application, an immersive mock e-commerce art shop, and a stellar space observation platform, I have poured my passion into creating diverse and innovative experiences.</p>
+                        <h2>Flatiron School Projects</h2>
+                        <p>
+                            Below you'll find a collection of my carefully crafted frontend and fullstack projects that 
+                            showcase my skills and expertise. From developing a dynamic project management tool to designing 
+                            a budget tracking application, an immersive mock e-commerce art shop, and a stellar space 
+                            observation platform, I have poured my passion into creating diverse and innovative experiences.
+                        </p>
                         <Row className="project-cards-row">
                             {
                                 projects.map((project, index) => {

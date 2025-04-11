@@ -1,13 +1,11 @@
 import React from "react"
-import { useState, useEffect, useRef } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { ArrowRightCircle } from 'react-bootstrap-icons'
 import '../styles/Banner.css'
 import Typewriter from 'typewriter-effect'
 
 function Banner() {
 
-    const wordsToRotate = ['Full-Stack Developer', 'Ruby on Rails Developer', 'React Developer', 'Photographer'] // different words to be displayed in the rotating banner
+    const titlesToRotate = ['Full Stack Developer', 'Python Developer', 'React Developer', 'Photographer'] 
 
     return(
         <section className="banner d-flex justify-content-center align-items-center" id="home">
@@ -18,7 +16,7 @@ function Banner() {
                         <div className="typewriter-wrapper">
                             <Typewriter 
                                 options={{
-                                    strings: wordsToRotate,
+                                    strings: titlesToRotate,
                                     delay: 'natural',
                                     autoStart: true, 
                                     loop: true, 
@@ -26,7 +24,7 @@ function Banner() {
                                 }}
                             />
                         </div>
-                        <p>I build products aimed at enhancing the lives of individuals and providing them with delightful experiences</p>
+                        <p>I build products aimed at enhancing people's day-to-day lives and providing them with delightful experiences</p>
                     </Col>
                 </Row>
             </Container>

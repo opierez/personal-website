@@ -12,7 +12,6 @@ function Socials() {
         window.location.href = 'mailto:opierez@gmail.com'
     }
 
-
     return (
         <section className="social-media" id="socials">
             <Container>

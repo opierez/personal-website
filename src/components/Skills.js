@@ -5,32 +5,27 @@ import '../styles/Skills.css'
 
 function Skills() {
 
-      // list of my skills 
-      const technicalSkills = ['Full Stack Development', 'Ruby', 'Ruby on Rails', 'JavaScript', 'JavaScript Frameworks', 'React', 'CSS', 'HTML', 'JSON', 'Data Analytics', 'PostgreSQL', 'React Hooks', 'Active Record', 'SQLite', 'Github', 'Git', 'Object-Oriented Programming', 'REST APIs', 'API Integration', 'Debugging', 'Postman', 'Bootstrap', 'Tailwind', 'Python', 'Technical Writing', 'Chatbot Content Development', 'Chatbot Architecture', 'Mixpanel', 'Hubspot']
+      const technicalSkills = ['Full Stack Development', 'Python', 'Django', 'JavaScript', 'React', 'CSS', 'HTML', 'JSON', 'Ruby', 'Ruby on Rails', 'Data Analytics', 'PostgreSQL', 'AWS', 'Datadog', 'React Hooks', 'Active Record', 'SQLite', 'Github', 'Git', 'Object-Oriented Programming', 'REST APIs', 'API Integration', 'Debugging', 'Postman', 'Bootstrap', 'Tailwind', 'Technical Writing', 'Chatbot Content Development', 'Chatbot Architecture', 'Mixpanel', 'Hubspot']
       const softSkills = ['Pair Programming', 'Problem Solving', 'Analytical Skills', 'Cross-Functional Collaborations', 'Project Planning', 'Content Strategy', 'Project Management', 'Customer Insight', 'Effective Communication', 'Time Management and Prioritization', 'Attention to Detail', 'Creativity and Innovation', 'Continuous Learning']
   
       
       const [skillSelection, setSkillSelection] = useState('Technical')
       const [displayedSkills, setDisplayedSkills] = useState(technicalSkills)
   
-      // when user clicks on skills option, update the skill selection to the user's choice 
       const handleOptionClick = (option) => {
           setSkillSelection(option)
           
-          // stores the mappings between the options and displayed skills
           const skillsMap = {
               'Technical': technicalSkills, 
               'Soft Skills': softSkills
           }
   
-          // retrieves the appropriate skills array based on user selection 
           setDisplayedSkills(skillsMap[option])
       }
   
-      // object that determines how many items to display at different screen sizes
+      // Determines how many items to display at different screen sizes
       const responsive = {
           superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 5
           },
@@ -47,6 +42,7 @@ function Skills() {
             items: 1
           }
       };
+      
 
     return (
         <div className="skills-container">
@@ -58,8 +54,11 @@ function Skills() {
                 <span className={`circle-selection ${skillSelection === 'Soft Skills' ? 'filled-circle' : ''}`}></span>
                 <span className="selection-text">Soft Skills</span>
             </div>
-            {/* infinite = true makes the carousel loop infinitely */}
-            <Carousel responsive={responsive} infinite={true} className="skill-slider custom-carousel">
+            <Carousel 
+                responsive={responsive} 
+                infinite={true} 
+                className="skill-slider custom-carousel"
+            >
             {displayedSkills.map((skill, index) => (
                 <div key={index} className="item">
                     <h5>{skill}</h5>

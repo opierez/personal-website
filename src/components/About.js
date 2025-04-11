@@ -14,14 +14,13 @@ function About() {
             <Container>
                 <Row>
                     <Col>
-                        <div className="about-bx">
+                        <div className="about-bx gradient-border">
                             <Bio />
                             <Skills />
                         </div>
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={''} />
         </section>
     )
 }

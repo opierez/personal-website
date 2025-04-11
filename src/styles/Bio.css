@@ -1,10 +1,11 @@
 .bio-heading {
+    color: black;
     margin-top: 20px;
 	font-size: 45px;
 	font-weight: 700;
 }
 .bio-text {
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 0.8px;
@@ -19,7 +20,6 @@
 
 .hobby-list {
     list-style: none;
-    /* text-align: left; */
 }
 
 .hobby-list li {
