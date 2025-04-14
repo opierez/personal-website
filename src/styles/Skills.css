@@ -30,7 +30,7 @@
 .skill-slider {
     width: 80%;
     margin: 20px auto;
-    position: relative;
+    padding-bottom: 40px;
 }
 
 .item {

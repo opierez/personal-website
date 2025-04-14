@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Carousel from "react-multi-carousel";
 import '../styles/Skills.css'
+import { CustomRightArrow, CustomLeftArrow } from "./CustomCarouselArrows";
 
 
 function Skills() {
 
-      const technicalSkills = ['Full Stack Development', 'Python', 'Django', 'JavaScript', 'React', 'CSS', 'HTML', 'JSON', 'Ruby', 'Ruby on Rails', 'Data Analytics', 'PostgreSQL', 'AWS', 'Datadog', 'React Hooks', 'Active Record', 'SQLite', 'Github', 'Git', 'Object-Oriented Programming', 'REST APIs', 'API Integration', 'Debugging', 'Postman', 'Bootstrap', 'Tailwind', 'Technical Writing', 'Chatbot Content Development', 'Chatbot Architecture', 'Mixpanel', 'Hubspot']
+      const technicalSkills = ['Python', 'Django', 'JavaScript', 'React', 'Full Stack Development', 'CSS', 'HTML', 'JSON', 'Ruby', 'Ruby on Rails', 'Data Analytics', 'PostgreSQL', 'AWS', 'Datadog', 'React Hooks', 'Active Record', 'SQLite', 'Github', 'Git', 'Object-Oriented Programming', 'REST APIs', 'API Integration', 'Debugging', 'Postman', 'Bootstrap', 'Tailwind', 'Technical Writing', 'Chatbot Content Development', 'Chatbot Architecture', 'Mixpanel', 'Hubspot']
       const softSkills = ['Pair Programming', 'Problem Solving', 'Analytical Skills', 'Cross-Functional Collaborations', 'Project Planning', 'Content Strategy', 'Project Management', 'Customer Insight', 'Effective Communication', 'Time Management and Prioritization', 'Attention to Detail', 'Creativity and Innovation', 'Continuous Learning']
   
       
@@ -58,6 +59,8 @@ function Skills() {
                 responsive={responsive} 
                 infinite={true} 
                 className="skill-slider custom-carousel"
+                customRightArrow={<CustomRightArrow />}
+                customLeftArrow={<CustomLeftArrow />}
             >
             {displayedSkills.map((skill, index) => (
                 <div key={index} className="item">

@@ -8,7 +8,7 @@ function Testimonial({ text, name, jobTitle }) {
     return (
         <blockquote className="blockquote">
             <p className="mb-0"><FaQuoteLeft size={20}/> {text} <FaQuoteRight size={20}/></p>
-            <footer className="blockquote-footer">{name} {jobTitle}</footer>
+            <footer className="blockquote-footer">{name}, {jobTitle}</footer>
         </blockquote>     
     )
 }

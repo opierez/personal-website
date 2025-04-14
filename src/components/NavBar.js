@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react'
-import { RiComputerLine } from 'react-icons/ri'
 import '../styles/NavBar.css'
 
 
@@ -11,8 +10,6 @@ function NavBar() {
     const [activeLink, setActiveLink] = useState('home') 
     const [scrolled, setScrolled] = useState(false) 
 
-
-    // Determines if the user is scrolling 
     useEffect(() => {
         const onScroll = () => {
             if (window.scrollY > 50) {
@@ -34,7 +31,6 @@ function NavBar() {
     return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
-        <RiComputerLine size={50}/>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className='navbar-toggler-icon'></span>
         </Navbar.Toggle>

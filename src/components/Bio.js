@@ -17,8 +17,8 @@ function Bio () {
     const bioInfos = [
         `My passion for technology originates from the desire to create products that positively impact people's lives. Fueled by this drive, I transitioned from Content Strategy to Software Engineering, aspiring to participate in the development process.`,
         `My background working in Customer Experience has taught me the value of understanding and supporting user needs and the importance of addressing them effectively. I take pride in leveraging this customer-centric mindset when building features.`,
-        `With a talent for problem-solving, data analysis, and creating impactful solutions, I analyze existing processes to implement enhancements that evolve with company growth and the dynamic tech industry.`,
-        `I have extensive experience creating full-stack applications from scratch, using technologies such as JavaScript, React, Ruby, Ruby on Rails, SQLite, PostgreSQL, and CSS to name a few. In my previous roles, I've demonstrated my ability to deliver exceptional customer experiences, create and implement effective content strategies, and work on projects ranging from chatbot development to product launches.`
+        `With a talent for problem-solving, data analysis, and creating impactful solutions, I implement code enhancements that scale with company growth and adapt to evolving products and user needs.`,
+        `I have extensive experience creating full-stack applications, using technologies such as JavaScript, React, Python, Django, TypeScript, Ruby, Ruby on Rails, SQLite, PostgreSQL, and CSS to name a few. In my previous roles, I've demonstrated my ability to deliver exceptional customer experiences by developing data-driven content strategies, user-centered support content, and creating well-structured conversational workflows and response accuracy training for the support chatbot.`
     ]
 
     const bioInfoElements = bioInfos.map((info) => <p key={info}>{info}</p>)

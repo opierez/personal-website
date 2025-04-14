@@ -3,8 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Carousel from "react-multi-carousel";
 import Testimonial from "./Testimonial";
 import '../styles/Testimonials.css'
-import { IoArrowForwardCircleOutline, IoArrowBackCircleOutline } from "react-icons/io5";
-
+import { CustomRightArrow, CustomLeftArrow } from "./CustomCarouselArrows";
 
 function Testimonials() {
 
@@ -28,6 +27,11 @@ function Testimonials() {
             text: "When I moved to Olivia's team, I was put on my first project to co-lead with Olivia around a new integration. Olivia was able to delegate tasks to others so that she could remain heads down in the code around the major functionality and complex logic. This project also had both backend and front-end pieces and she moved through both parts as well as updated an existing quality assurance tool with the new integration.",
             name: "Justin Snyder",
             jobTitle: "Senior Software Engineer at Sure"
+        },
+        {
+            text: "Olivia led projects of varying complexities, actively collaborating with the team to ensure we were always moving in the right direction. Observing how she tackles complex project tasks is consistently inspiring.",
+            name: "Ulyana Hetman",
+            jobTitle: "Senior Software QA Engineer at Sure"
         },
         {
             text: "It’s a no-brainer that she moved into software engineering, because she was already having to operate as a part-developer / part product-manager in the unique role overseeing deployment of effective chatbot communications at Betterment. She showed skills in data analytics, technical planning, and migration management that rivaled other workers with more technical background, and she picked up skills remarkably fast too.",
@@ -63,39 +67,6 @@ function Testimonials() {
           breakpoint: { max: 464, min: 0 },
           items: 1
         }
-    };
-
-    const arrowStyles = {
-        position: 'absolute',
-        top: '50%',
-        transform: 'translateY(-50%)',
-        backgroundColor: '#fff',
-        border: 'none',
-        padding: '0',
-        cursor: 'pointer',
-        zIndex: 2,
-      };
-
-    const CustomRightArrow = ({ onClick, ...rest }) => {
-        return (
-            <button 
-                onClick={() => onClick()} 
-                style={{ ...arrowStyles, position: 'absolute', right: 0, top: '50%', transform: 'translateY(-50%)' }}
-            >
-                <IoArrowForwardCircleOutline size={40}/>
-            </button>
-        );
-    };
-      
-    const CustomLeftArrow = ({ onClick, ...rest }) => {
-        return (
-            <button 
-                onClick={() => onClick()} 
-                style={{ ...arrowStyles, position: 'absolute', left: 0, top: '50%', transform: 'translateY(-50%)' }}
-            >
-                <IoArrowBackCircleOutline size={40}/>
-            </button>
-        );
     };
 
     return (
