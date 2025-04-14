@@ -4,9 +4,30 @@
   background: #42C092;
 }
 .about-bx {
-  background: #151515;
+  background: white;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 20px 50px;
   margin-top: -60px;
+}
+
+.gradient-border {
+  position: relative;
+  z-index: 0;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px; 
+  background: linear-gradient(90.21deg, rgba(6, 0, 96, 0.7) -5.91%, rgba(23, 57, 209, 0.7) 111.58%);
+  border-radius: inherit;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+  z-index: -1;
 }

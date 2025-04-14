@@ -1,11 +1,12 @@
 .blockquote {
   margin: 0;
-  padding: 20px;
+  padding: 40px;
   font-size: 24px;
   font-weight: 700;
   font-style: italic;
   position: relative;
   color: black;
+  background-color: white;
 }
   
 footer.blockquote-footer {

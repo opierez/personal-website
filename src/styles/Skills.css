@@ -12,22 +12,27 @@
     border-radius: 50%;
     border: 2px solid #000;
     margin-right: 5px;
-    border-color: white;
+    border-color: black;
     vertical-align: middle;
     cursor: pointer;
 }
 
 .filled-circle {
-    background-color: white;
+    background-color: black;
 }
 
 .selection-text {
+    color: black;
     font-size: 16px;
     font-weight: bold; 
 }
 
 .skill-slider {
     width: 80%;
-    margin: 0 auto;
-    position: relative;
+    margin: 20px auto;
+    padding-bottom: 40px;
+}
+
+.item {
+    color: black;
 }
